@@ -1,0 +1,15 @@
+package com.example.abbreviationfinder;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Object obj =123;
+		if(obj instanceof String s) {
+			System.out.println(s.length());
+		}else {
+			System.out.println("Not a string");
+		}
+	}
+
+}

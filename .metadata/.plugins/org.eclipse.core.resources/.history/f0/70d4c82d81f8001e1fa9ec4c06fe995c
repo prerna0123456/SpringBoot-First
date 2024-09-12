@@ -1,0 +1,7 @@
+<%@include file="header.jsp" %>
+
+<h3>Welcome to @Brand.com</h3>
+<img src="static/images/birds.jp.jpg" alt="Company-logo" width="400" height="400">
+
+</body>
+</html>

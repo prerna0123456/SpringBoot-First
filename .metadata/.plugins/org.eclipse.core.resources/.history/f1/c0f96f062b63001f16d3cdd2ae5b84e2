@@ -1,0 +1,5 @@
+package com.example.abbreviationfinder;
+
+public class ResponseObject {
+
+}

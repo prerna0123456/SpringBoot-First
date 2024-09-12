@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RegisterJSP/src/main/webapp/errors/failedattempt.jsp&apos; to &apos;dberror.jsp&apos;" description="Rename resource &apos;failedattempt.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/errors/failedattempt.jsp" name="dberror.jsp" stamp="1712890926408" updateReferences="true"/>
+</session>

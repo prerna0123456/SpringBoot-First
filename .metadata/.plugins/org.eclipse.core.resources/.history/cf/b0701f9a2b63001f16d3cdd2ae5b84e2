@@ -1,0 +1,25 @@
+package com.example.abbreviationfinder;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class AbbreviationController {
+	
+	@Autowired
+	AbbreaviationService as;
+	
+	@GetMapping("/abbreviation/{abbr}")
+	public ResponseObject fetchAbbreviation(@PathVariable String abbr) {
+		
+		String response=as.getAbbreviation(abbr);
+		ResponseObject returnObj = new ResponseObject();
+		returnObj.setResponseData(response);
+		return returnObj;
+	}
+	
+	
+
+}

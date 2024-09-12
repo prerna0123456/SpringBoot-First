@@ -1,0 +1,44 @@
+package com.example.abbreviationfinder;
+
+import java.util.Arrays;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int[] a = {};
+		
+		List<Integer> b=Arrays.asList(1,2,3,1,4,5,2,6,3,7,1,6,8);
+		
+		/* using logic
+		int[] b=new int[a.length];
+		int k=0;
+		boolean c=false;
+		
+		for(int i=0;i<a.length;i++) {
+			c=false;
+			int h=a[i];
+			for(int j=i+1;j<a.length;j++) {
+				if(h==a[j]) {
+					
+					c=true;
+					break;
+				}
+			}
+			if(c==false) {
+			b[k]=a[i];
+			k++;
+			}
+		}
+		
+		for(int i=0;i<a.length;i++)
+		System.out.println(b[i]);
+		
+		*/
+	
+		}
+		
+	}
+
+
